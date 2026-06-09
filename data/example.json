@@ -1,0 +1,16 @@
+{
+  "sources": [
+    { "id": "checking", "name": "Checking", "balance": 5000 },
+    { "id": "savings", "name": "Savings", "balance": 12000 },
+    { "id": "credit-line", "name": "Credit line", "balance": 3000 }
+  ],
+  "expenses": [
+    {
+      "id": "demo-expense-1",
+      "description": "Groceries",
+      "amount": 85.5,
+      "sourceId": "checking",
+      "createdAt": "2026-06-01T12:00:00.000Z"
+    }
+  ]
+}
